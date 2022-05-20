@@ -1,59 +1,81 @@
 <div class="container mt-4">
-<div id="slider-container">
-  <div class="slider-content">
-    <div
-      class="slide active"
-      style="
-        background-image: url('/images/artwork/Luo_Zhongli_01.jpg');
-      "
-    ></div>
-    <div
-      class="slide"
-      style="
-      background-image: url('/images/artwork/Luo_Zhongli_02.jpg');
-      "
-    ></div>
-    <div
-      class="slide"
-      style="
-      background-image: url('/images/artwork/Luo_Zhongli_03.jpg');
-      "
-    ></div>
-    <div
-      class="slide"
-      style="
-      background-image: url('/images/artwork/Luo_Zhongli_04.jpg');
-      "
-    ></div>
-    <div
-    class="slide"
-    style="
-    background-image: url('/images/artwork/Luo_Zhongli_05.jpg');
-    "
-  ></div>
-  <div
-    class="slide"
-    style="
-    background-image: url('/images/artwork/Luo_Zhongli_06.jpg');
-    "
-  ></div>
+  <div id="slider-container">
+    <div class="slider-content">
+      <div
+        class="slide active"
+        style="background-image: url('/images/artwork/Luo_Zhongli_01.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Luo_Zhongli_02.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Luo_Zhongli_03.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Luo_Zhongli_04.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Luo_Zhongli_05.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Mark_grotjahn_01.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Mark_grotjahn_02.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Mark_grotjahn_03.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Peter_Doig_01.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Peter_Doig_02.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Peter_Doig_03.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Peter_Doig_04.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Peter_Doig_05.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Peter_Doig_06.jpg')"
+      ></div>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/Peter_Doig_07.jpg')"
+      ></div>
 
-    
-    <% for(let i=0; i< artworks.length; i++) {%>
-    <div
-      class="slide"
-        style="background-image: url('/images/artwork/<%= artworks[i] %>');"
-    ></div>
-    <% } %>
+      <% for(let i=0; i< artworks.length; i++) {%>
+      <div
+        class="slide"
+        style="background-image: url('/images/artwork/<%= artworks[i] %>')"
+      ></div>
+      <% } %>
 
+      <button class="arrow left-arrow" id="left">
+        <i class="fas fa-arrow-left"></i>
+      </button>
 
-    <button class="arrow left-arrow" id="left">
-      <i class="fas fa-arrow-left"></i>
-    </button>
-
-    <button class="arrow right-arrow" id="right">
-      <i class="fas fa-arrow-right"></i>
-    </button>
+      <button class="arrow right-arrow" id="right">
+        <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
   </div>
-</div>
 </div>
