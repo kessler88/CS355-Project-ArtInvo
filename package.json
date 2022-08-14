@@ -1,7 +1,7 @@
 {
-  "name": "roux-academy",
-  "version": "1.0.0",
-  "description": "Exercise files for my course Building a Website with Node.js and Express",
+  "name": "art-invo",
+  "version": "1.0.1",
+  "description": "Project for CS-355 Internet and Web Technologies",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
