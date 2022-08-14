@@ -5,6 +5,12 @@ The idea behind Art-Invo is to provide a simple platform to allow artist to show
 
 The web application mainly act as a platform for artists, where we try to showcase different artist artwork across the globe. It revolves around the idea of providing experience similar to walking around a artwork gallery digitally.  Where viewers are able to check each of the available artist work and what sort of art they focused on, including but not limited to, photography, fine arts, digital artwork, sculptor, abstract arts and more.
 
+How to run:
+1. clone the repo
+2. run the node server by typing `npm start` in console
+3. if success `Express server listening on port 3000!` message appears in console
+4. open a browser and type localhost:3000
+
 # Web layout
  
 
