@@ -9,7 +9,7 @@ How to run:
 1. clone the repo
 2. run the node server by typing `npm start` in console
 3. if success `Express server listening on port 3000!` message appears in console
-4. open a browser and type localhost:3000
+4. open a browser and type `localhost:3000` in address bar
 
 # Web layout
  
